@@ -1,11 +1,3 @@
 # kriegstudios.com
 
-### How to build source files
-```
-mkdocs gh-deploy --clean
-```
-
-### How to test website
-```
-mkdocs serve
-```
+The branch for Muhsinun to test and experiment with
