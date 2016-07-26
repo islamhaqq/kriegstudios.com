@@ -1,2 +1,3 @@
 # kriegstudios.com
-Website branch for Krieg Studios.
+
+Website development branch for Krieg Studios
