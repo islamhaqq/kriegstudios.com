@@ -4,7 +4,12 @@
   "description": "Website development branch for Krieg Studios",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
   },
   "repository": {
     "type": "git",
@@ -30,6 +35,7 @@
     "angular2-in-memory-web-api": "0.0.20",
     "bootstrap": "^3.3.6"
   },
+  // production-exclusive dependencies for developing. Not neccessary to run application
   "devDependencies": {
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
