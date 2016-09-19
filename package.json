@@ -1,6 +1,6 @@
 {
   "name": "kriegstudios.com",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Website development branch for Krieg Studios",
   "main": "index.js",
   "scripts": {
