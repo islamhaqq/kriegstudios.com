@@ -35,7 +35,6 @@
     "angular2-in-memory-web-api": "0.0.20",
     "bootstrap": "^3.3.6"
   },
-  // production-exclusive dependencies for developing. Not neccessary to run application
   "devDependencies": {
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
