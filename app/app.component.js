@@ -16,7 +16,7 @@ var AppComponent = (function () {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: 'main-view',
+            selector: 'my-app',
             template: '<h1>Default Template</h1>' // how to render component's view
         }), 
         __metadata('design:paramtypes', [])
